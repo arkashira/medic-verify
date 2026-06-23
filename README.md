@@ -1,5 +1,8 @@
-# Medic-Verify
-Medic-Verify is a CLI tool for loading a healthcare AI model, running it against a validation dataset, and outputting a reliability report.
+# Marketplace
+A simple marketplace for certified models.
 
-## Installation
-To install Medic-Verify, run the following command:
+## Usage
+1. Create a `Marketplace` instance.
+2. Add models using the `add_model` method.
+3. List models using the `list_models` method.
+4. Get a compliance package using the `get_compliance_package` method.

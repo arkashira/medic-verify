@@ -3,9 +3,10 @@ requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry]
-name = "medic-verify"
-version = "0.1.0"
-description = "Medic-Verify CLI tool"
+name = "marketplace"
+version = "1.0.0"
+description = ""
+authors = ["Your Name"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
