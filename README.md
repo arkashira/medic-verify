@@ -1,8 +1,13 @@
-# Marketplace
-A simple marketplace for certified models.
+# medic-verify
 
-## Usage
-1. Create a `Marketplace` instance.
-2. Add models using the `add_model` method.
-3. List models using the `list_models` method.
-4. Get a compliance package using the `get_compliance_package` method.
+`medic-verify` is a tiny, pure‑Python library that helps healthcare organisations validate
+AI models against a diverse patient dataset while ensuring basic data‑governance
+rules (no personally identifiable information).
+
+## Features
+
+* **Model validation** – compute overall accuracy and per‑group accuracy.
+* **Compliance check** – raises an error if prohibited PII fields are found.
+* **Result formatting** – returns a clear, JSON‑serialisable report.
+
+## Quick start
